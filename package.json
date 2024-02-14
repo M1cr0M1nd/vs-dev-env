@@ -1,0 +1,36 @@
+{
+  "name": "vs-dev-env",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Shlomo Michael Rubin <shlomomrubin@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "vs-dev-env": "cli.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M1cr0M1nd/vs-dev-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/M1cr0M1nd/vs-dev-env/issues"
+  },
+  "keywords": [
+    "visual studio",
+    "command line",
+    "vswhere"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
